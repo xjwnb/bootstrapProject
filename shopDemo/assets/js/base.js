@@ -1,0 +1,14 @@
+$(function(){
+	$(".product").mouseover(function(){
+		$(".product-menu").show();
+	});
+	$(".product").mouseout(function(){
+		$(".product-menu").hide();
+	});
+	$(".person").mouseover(function(){
+		$(".person-menu").show();
+	});
+	$(".person").mouseout(function(){
+		$(".person-menu").hide();
+	});
+});

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人信息</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/personal.css">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/base.js"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<div id="header" class="">
+			<nav class="navbar navbar-expand-sm navbar-light">
+
+
+				<a href="index.html" class="navbar-brand">
+					<img src="assets/images/logo.PNG" alt="Logo">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarcollapse">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								首页
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="activity.html">
+								活动
+							</a>
+						</li>
+						<li class="nav-item dropdown product">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+								产品
+							</a>
+							<div class="dropdown-menu product-menu">
+								<a class="dropdown-item" href="types.html">分类</a>
+								<a class="dropdown-item" href="man.html">男装</a>
+								<a class="dropdown-item" href="woman.html">女装</a>
+								<a class="dropdown-item" href="children.html">童装</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown person">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+								个人中心
+							</a>
+							<div class="dropdown-menu person-menu">
+								<a class="dropdown-item" href="personal.html">个人信息</a>
+								<a class="dropdown-item" href="shoppingCart.html">购物车</a>
+							</div>
+						</li>
+					</ul>
+					<form action="" class="navbar-form navbar-left" role="search" id="search">
+						<div class="form-group input-group">
+							<input type="text" class="form-control" placeholder="寻找商品" />
+							<div class="input-group-btn">
+								<button class="btn btn-secondary">查找</button>
+							</div>
+						</div>
+					</form>
+					<ul class="navbar-nav navbar-light ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="login.html">
+								登录
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="register.html">
+								注册
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</body>
+
+	<!-- 内容 -->
+	<div class="tb">
+		<h2>个人信息</h2>
+		<table class="persontb">
+			<tr>
+				<td>用户名:</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>姓名:</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>电子邮箱地址:</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>性别:</td>
+				<td>
+					<input type="radio" name="sex" id="sex" value="男" />男
+					<input type="radio" name="sex" id="sex" value="女" />女
+				</td>
+			</tr>
+			<tr>
+				<td>身份证号码:</td>
+				<td>
+					<input type="text">
+				</td>
+			<tr>
+				<td>登录密码:</td>
+				<td>
+					<input type="passwor">
+				</td>
+			</tr>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="确定" class="btn btn-primary"></td>
+			</tr>
+		</table>
+	</div>
+	<!-- footer -->
+	<div id="footer" class="container ">
+		<div class="row">
+			<div class="col-12 col-lg-3 col-md-3">
+				<h3>公司</h3>
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">工作</a></li>
+					<li><a href="#">新闻</a></li>
+					<li><a href="#">联系</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-lg-3 col-md-3">
+				<h3>社区</h3>
+				<ul>
+					<li><a href="#">社区</a></li>
+					<li><a href="#">团队</a></li>
+					<li><a href="#">论坛</a></li>
+					<li><a href="#">聚会</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-lg-3 col-md-3">
+				<h3>法律</h3>
+				<ul>
+					<li><a href="#">社区</a></li>
+					<li><a href="#">使用条款</a></li>
+					<li><a href="#">许可协议</a></li>
+
+				</ul>
+			</div>
+			<div class="col-12 col-lg-3 col-md-3">
+				<h3>联系我们</h3>
+				<ul>
+					<li><a href="#">电话:88888888</a></li>
+					<li><a href="#">邮箱地址:88888888@nb.com</a></li>
+					li><a href="#">公司地址:太阳系地球中国</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</html>

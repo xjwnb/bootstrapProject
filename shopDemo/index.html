@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>有点小帅店</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/base.js"></script>
+
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+		<!-- 开始 -->
+		<div id="all" class="container-fluid">
+			<!-- 头部开始 -->
+			<div id="header" class="">
+				<nav class="navbar navbar-expand-sm navbar-light">
+
+
+					<a href="#" class="navbar-brand">
+						<img src="assets/images/logo.PNG" alt="Logo">
+					</a>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarcollapse">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">
+									首页
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="activity.html">
+									活动
+								</a>
+							</li>
+							<li class="nav-item dropdown product">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+									产品
+								</a>
+								<div class="dropdown-menu product-menu">
+									<a class="dropdown-item" href="types.html">分类</a>
+									<a class="dropdown-item" href="man.html">男装</a>
+									<a class="dropdown-item" href="woman.html">女装</a>
+									<a class="dropdown-item" href="children.html">童装</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown person">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+									个人中心
+								</a>
+								<div class="dropdown-menu person-menu">
+									<a class="dropdown-item" href="personal.html">个人信息</a>
+									<a class="dropdown-item" href="shoppingCart.html">购物车</a>
+								</div>
+							</li>
+						</ul>
+						<form action="" class="navbar-form navbar-left" role="search" id="search">
+							<div class="form-group input-group">
+								<input type="text" class="form-control" placeholder="寻找商品" />
+								<div class="input-group-btn">
+									<button class="btn btn-secondary">查找</button>
+								</div>
+							</div>
+						</form>
+						<ul class="navbar-nav navbar-light ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="login.html">
+									登录
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="register.html">
+									注册
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- 轮播图 -->
+			<div id="demo" class="carousel slide" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="assets/images/carousel1.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/carousel2.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/images/carousel3.jpg">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+					<!--  -->
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+					<!--  -->
+				</a>
+			</div>
+			<!-- 服装分类 -->
+			<div id="sorts" class="container-fluid">
+				<div id="sortsleft">
+					<span>专区</span>
+					Special area
+				</div>
+				<div class="container-fluid p-0">
+					<div class="row">
+						<div id="man" class="man col-12 col-sm-4 col-md-4 mb-20" id="special">
+							<div class="sort">
+
+								<a href="man.html">
+									<img id="img" src="assets/images/man.jpg" alt="男装">
+								</a>
+
+
+							</div>
+
+						</div>
+						<div class="girl col-12 col-sm-4 col-md-4 mb-20" id="special">
+							<div class="sort">
+								<a href="woman.html">
+									<img id="img" src="assets/images/girl.jpg">
+								</a>
+
+							</div>
+						</div>
+						<div class="child col-12 col-sm-4 col-md-4 mb-20" id="special">
+							<div class="sort">
+								<a href="children.html">
+									<img id="img" src="assets/images/child.JPG">
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 最新产品 -->
+			<div id="sorts" class="newProducts container-fluid">
+				<div id="sortsleft">
+					<span>最新产品</span>
+					Latest products
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-12 mb-30 pl-0 pr-0">
+							<div class="product-inner hotsman">
+								<div class="image-wrap">
+									<a href="#">
+										<img src="assets/images/hotsman1.jpg" alt="">
+									</a>
+
+								</div>
+								<div class="content text-center">
+									<h4 class="title"><a href="single-product.html">潮流男装</a></h4>
+									<div class="price">
+										<del class="price-old">$799.99</del>
+										<span class="price-sale">$566.77</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-12 mb-30 pl-0 pr-0">
+							<div class="product-inner hotsman">
+								<div class="image-wrap">
+									<a href="#">
+										<img src="assets/images/hotsman2.jpg" alt="">
+									</a>
+
+								</div>
+								<div class="content text-center">
+									<h4 class="title"><a href="single-product.html">帅气男装</a></h4>
+									<div class="price">
+										<del class="price-old">$799.99</del>
+										<span class="price-sale">$566.77</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-12 mb-30 pl-0 pr-0">
+							<div class="product-inner hotsman">
+								<div class="image-wrap">
+									<a href="#">
+										<img src="assets/images/hotsman3.jpg" alt="">
+									</a>
+
+								</div>
+								<div class="content text-center">
+									<h4 class="title"><a href="single-product.html">韩版男装</a></h4>
+									<div class="price">
+										<del class="price-old">$799.99</del>
+										<span class="price-sale">$566.77</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div id="foot1">
+				<div id="footer" class="container">
+					<div class="row">
+						<div class="col-12 col-lg-3 col-md-3">
+							<h3>公司</h3>
+							<ul>
+								<li><a href="#">关于我们</a></li>
+								<li><a href="#">工作</a></li>
+								<li><a href="#">新闻</a></li>
+								<li><a href="#">联系</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<h3>社区</h3>
+							<ul>
+								<li><a href="#">社区</a></li>
+								<li><a href="#">团队</a></li>
+								<li><a href="#">论坛</a></li>
+								<li><a href="#">聚会</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<h3>法律</h3>
+							<ul>
+								<li><a href="#">社区</a></li>
+								<li><a href="#">使用条款</a></li>
+								<li><a href="#">许可协议</a></li>
+
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<h3>联系我们</h3>
+							<ul>
+								<li><a href="#">电话:88888888</a></li>
+								<li><a href="#">邮箱地址:88888888@nb.com</a></li>
+								<li><a href="#">公司地址:太阳系地球中国</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- js -->
+
+	</body>
+</html>

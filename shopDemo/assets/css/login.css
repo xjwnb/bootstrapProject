@@ -1,0 +1,113 @@
+/* body {
+	background: url(../images/loginBackground.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+ */
+/* 头部样式 */
+	.nav-item a{
+		  font-size:20px;
+	}
+	.carousel-inner img {
+	    width: 100%;
+	    height: 100%;
+	}
+	ul, li {
+	  list-style:  none;
+	  margin: 0;
+	  padding: 0; 
+	}
+	a, img {
+	  -webkit-transition: all 0.3s ease 0s;
+	  -o-transition: all 0.3s ease 0s;
+	  transition: all 0.3s ease 0s; }
+	a:hover {
+	  text-decoration: none; 
+	}
+	.text-center, .image-wrap{
+	    text-align:center;
+		width:100%;
+	}
+	
+	#search {
+		margin-top: 15px;
+		margin-left: 100px;
+	}
+	/* footer */
+	#foot {
+		width: 100%;
+		background-color: #ccc;
+	}
+	#footer {
+		padding-top: 20px;
+		margin-top: 40px;
+		
+	}
+	#footer a {
+		color: black;
+	}
+	#footer a:hover {
+		color: white;
+	}
+	#tabheader {
+		width: 1200px;
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+	#content {
+		display: inline-block;
+		margin: 0 auto;
+	}
+	
+	#loginRegister {
+		width: 500px;
+		/* margin: 0 auto; */
+		height: 400px;
+		
+	}
+	.nav-tabs {
+		width: 300px;
+	}
+	#loginform input {
+		margin-top: 20px;
+	}
+	/* #loginemail,#loginpassword {
+		width: 300px; !important
+	} */
+	#loginform {
+		width: 300px;
+	}
+	input {
+		width: 300px;
+	}
+	#checkboxlogin {
+		margin-top: 0px;
+		width: 13px;
+		height: 13px;
+	}
+	#fontlogin a {
+		margin-top: 15px;
+		float: right;
+	}
+	#login-right {
+		margin-top: 30px;
+		width: 500px;
+		height: 350px;
+		border: 1px solid #ccc;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	#login-right-imgs  img{
+		width: 300px;
+		height: 300px;
+	}
+@media (min-width:1200px) {
+	#logindiv {
+		width: 900px;
+		height: 600px;
+	}
+	
+} 

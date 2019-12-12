@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/shoppingCart.css">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/base.js"></script>
+		<script type="text/javascript" src="assets/js/shoppingCart.js"></script>
+
+
+	</head>
+	<body>
+		<!-- header -->
+		<div id="header" class="">
+			<nav class="navbar navbar-expand-sm navbar-light">
+
+
+				<a href="index.html" class="navbar-brand">
+					<img src="assets/images/logo.PNG" alt="Logo">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarcollapse">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								首页
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="activity.html">
+								活动
+							</a>
+						</li>
+						<li class="nav-item dropdown product">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+								产品
+							</a>
+							<div class="dropdown-menu product-menu">
+								<a class="dropdown-item" href="types.html">分类</a>
+								<a class="dropdown-item" href="man.html">男装</a>
+								<a class="dropdown-item" href="woman.html">女装</a>
+								<a class="dropdown-item" href="children.html">童装</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown person">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+								个人中心
+							</a>
+							<div class="dropdown-menu person-menu">
+								<a class="dropdown-item" href="personal.html">个人信息</a>
+								<a class="dropdown-item" href="shoppingCart.html">购物车</a>
+							</div>
+						</li>
+					</ul>
+					<form action="" class="navbar-form navbar-left" role="search" id="search">
+						<div class="form-group input-group">
+							<input type="text" class="form-control" placeholder="寻找商品" />
+							<div class="input-group-btn">
+								<button class="btn btn-secondary">查找</button>
+							</div>
+						</div>
+					</form>
+					<ul class="navbar-nav navbar-light ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="login.html">
+								登录
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="register.html">
+								注册
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!-- 购物车 -->
+
+		<div class="page-section section " id="shopcart">
+			<div class="container">
+				<form action="#">
+					<div class="row">
+						<div class="col-12">
+							<div class="cart-table table-responsive mb-40">
+								<table border="1">
+									<thead>
+										<tr>
+											<th class="pro-thumbnail">Image</th>
+											<th class="pro-title">Product</th>
+											<th class="pro-price">Price</th>
+											<th class="pro-quantity">Quantity</th>
+											<th class="pro-subtotal">Total</th>
+											<th class="pro-remove">Remove</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="pro-thumbnail"><a href="#"><img src="assets/images/children3.jpg" alt="" /></a></td>
+											<td class="pro-title"><a href="#">Injected humour</a></td>
+											<td class="pro-price"><span class="amount" id="price1">$799.99</span></td>
+											<td class="pro-quantity">
+												<div class="product-quantity"><input type="button" value="-" id="sub"><input type="text" value="1" id="num" /><input
+													 type="button" value="+" id="add"></div>
+											</td>
+											<td class="pro-subtotal" id="product1">$799.99</td>
+											<td class="pro-remove"><a href="#">×</a></td>
+										</tr>
+										<tr>
+											<td class="pro-thumbnail"><a href="#"><img src="assets/images/man10.jpg" alt="" /></a></td>
+											<td class="pro-title"><a href="#">Classical literature</a></td>
+											<td class="pro-price"><span class="amount" id="price2">$799.99</span></td>
+											<td class="pro-quantity">
+												<div class="product-quantity"><input type="button" value="-" id="sub1"><input type="text" value="1" id="num1" /><input
+													 type="button" value="+" id="add1"></div>
+											</td>
+											<td class="pro-subtotal" id="product2">$799.99</td>
+											<td class="pro-remove"><a href="#">×</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div id="total">
+							共计
+							<input type="text" value="1000">￥
+						</div>
+						<div class="" id="jiesuan">
+							<input type="button" value="结算" class="btn btn-danger">
+
+						</div>
+					</div>
+			</div>
+			</form>
+		</div>
+		</div>
+
+
+		<!-- footer -->
+		<div id="foot">
+			<div id="footer" class="container">
+				<div class="row">
+					<div class="col-12 col-lg-3 col-md-3">
+						<h3>公司</h3>
+						<ul>
+							<li><a href="#">关于我们</a></li>
+							<li><a href="#">工作</a></li>
+							<li><a href="#">新闻</a></li>
+							<li><a href="#">联系</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<h3>社区</h3>
+						<ul>
+							<li><a href="#">社区</a></li>
+							<li><a href="#">团队</a></li>
+							<li><a href="#">论坛</a></li>
+							<li><a href="#">聚会</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<h3>法律</h3>
+						<ul>
+							<li><a href="#">社区</a></li>
+							<li><a href="#">使用条款</a></li>
+							<li><a href="#">许可协议</a></li>
+
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<h3>联系我们</h3>
+						<ul>
+							<li><a href="#">电话:88888888</a></li>
+							<li><a href="#">邮箱地址:88888888@nb.com</a></li>
+							<li><a href="#">公司地址:太阳系地球中国</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript">
+
+		</script>
+	</body>
+</html>
